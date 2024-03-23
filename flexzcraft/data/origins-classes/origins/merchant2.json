@@ -1,0 +1,10 @@
+{
+  "name": "Merchant",
+  "description": "Always looking for an additional emerald, Merchants are proficient traders.",
+  "powers": [
+    "origins-classes:trade_availability"
+  ],
+  "icon": "minecraft:emerald",
+  "order": 8,
+  "impact": 0
+}

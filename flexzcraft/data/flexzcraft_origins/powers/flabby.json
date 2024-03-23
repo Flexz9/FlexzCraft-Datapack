@@ -1,0 +1,11 @@
+{
+  "name": "Flabby",
+  "description": "You have 2 less hearts of health than humans.",
+  "type": "origins:attribute",
+  "modifier": {
+	"name": "Origin modifier",
+	"attribute": "minecraft:generic.max_health",
+	"operation": "addition",
+	"value": -4
+  }
+}

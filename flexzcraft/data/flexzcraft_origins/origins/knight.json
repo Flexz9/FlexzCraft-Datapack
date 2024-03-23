@@ -1,0 +1,15 @@
+{
+    "name": "Knight",
+    "description": "You're a powerful knight. You're used to being on the front line in battle and are always ready to make sacrifices.",
+    "powers": [
+        "flexzcraft_origins:durable",
+        "flexzcraft_origins:more_exhaustion",
+        "flexzcraft_origins:prepared",
+        "flexzcraft_origins:trained"
+    ],
+    "icon": {
+        "item": "minecraft:shield"
+    },
+    "impact": 1,
+	"unchoosable": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Explorer",
+  "description": "Explorers find their way through the most difficult terrain easily and discover hidden landmarks.",
+  "powers": [
+    "origins-classes:explorer_kit",
+    "origins-classes:no_sprint_exhaustion",
+    "origins-classes:tailwind"
+  ],
+  "icon": "minecraft:compass",
+  "order": 9,
+  "impact": 0
+}

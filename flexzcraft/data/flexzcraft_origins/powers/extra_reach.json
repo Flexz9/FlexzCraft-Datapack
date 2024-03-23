@@ -1,0 +1,19 @@
+{
+  "name": "Slender Body",
+  "description": "You can reach blocks and entities further away.",
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Extra Reach block reach",
+      "attribute": "forge:block_reach",
+      "value": 1.5,
+      "operation": "addition"
+    },
+    {
+      "name": "Extra Reach attack reach",
+      "attribute": "forge:entity_reach",
+      "value": 1.5,
+      "operation": "addition"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Carnivore",
+  "description": "Your diet is restricted to meat, you can't eat vegetables.",
+  "type": "apoli:prevent_item_use",
+  "item_condition": {
+    "type": "apoli:and",
+    "conditions": [
+      {
+        "type": "apoli:or",
+        "conditions": [
+          {
+            "type": "apoli:ingredient",
+            "ingredient": {
+              "tag": "flexzcraft_origins:meat"
+            }
+          },
+          {
+            "type": "apoli:meat"
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "apoli:food"
+      },
+      {
+        "type": "apoli:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

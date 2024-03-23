@@ -1,0 +1,10 @@
+{
+  "name": "Webbing",
+  "description": "When you hit an enemy in melee, they get stuck in cobweb.",
+  "type": "origins:cooldown",
+  "cooldown": 120,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 5
+  }
+}

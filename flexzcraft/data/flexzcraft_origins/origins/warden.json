@@ -1,0 +1,18 @@
+{
+    "name": "Warden",
+    "description": "You may be slow, but can they even hurt you?",
+    "powers": [
+        "flexzcraft_origins:time_to_rest",
+        "flexzcraft_origins:natural_armor",
+        "flexzcraft_origins:durable",
+        "flexzcraft_origins:tough_armor",
+        "flexzcraft_origins:vegetarian",
+        "flexzcraft_origins:inexperienced2",
+        "flexzcraft_origins:the_small_boss",
+        "flexzcraft_origins:headwind"
+    ],
+    "icon": {
+        "item": "minecraft:sculk_sensor"
+    },
+    "impact": 1
+}

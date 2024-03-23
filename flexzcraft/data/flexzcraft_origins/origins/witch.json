@@ -1,0 +1,17 @@
+{
+    "name": "Witch",
+    "description": "You're there to heal and help others. You'll rarely be seen directly attacking others.",
+    "powers": [
+        "flexzcraft_origins:untrained",
+        "flexzcraft_origins:brewer_jumpboost",
+        "flexzcraft_origins:brewer_speed",
+        "flexzcraft_origins:brewer_strength",
+        "flexzcraft_origins:brewer_regeneration",
+        "flexzcraft_origins:heal_pool",
+        "flexzcraft_origins:one_with_darkness"
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "impact": 1
+}

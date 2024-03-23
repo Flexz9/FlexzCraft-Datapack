@@ -1,0 +1,19 @@
+{
+	"name": "Merling",
+	"description": "These natural inhabitants of the ocean are not used to being out of the water for too long.",
+	"powers": [
+		"flexzcraft_origins:water_breathing",
+		"flexzcraft_origins:water_vision",
+		"flexzcraft_origins:aqua_affinity",
+		"flexzcraft_origins:swim_speed",
+		"flexzcraft_origins:like_water",
+		"flexzcraft_origins:aquatic",
+		"flexzcraft_origins:conduit_power_on_land",
+		"flexzcraft_origins:air_from_potions"
+	],
+	"icon": {
+		"item": "minecraft:cod"
+	},
+	"order": 0,
+	"impact": 3
+}

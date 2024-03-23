@@ -1,0 +1,31 @@
+{
+  "name": "Claustrophobia",
+  "description": "Being somewhere with a low ceiling for too long will weaken you and make you slower.",
+  "type": "apoli:stacking_status_effect",
+  "condition": {
+    "type": "apoli:block_collision",
+    "block_condition": "apoli:allow",
+    "offset_y": 1.0
+  },
+  "duration_per_stack": 10,
+  "effects": [
+    {
+      "amplifier": 0,
+      "duration": 100,
+      "effect": "minecraft:weakness",
+      "is_ambient": true,
+      "show_icon": true,
+      "show_particles": false
+    },
+    {
+      "amplifier": 0,
+      "duration": 100,
+      "effect": "minecraft:slowness",
+      "is_ambient": true,
+      "show_icon": true,
+      "show_particles": false
+    }
+  ],
+  "max_stacks": 361,
+  "min_stacks": -20
+}

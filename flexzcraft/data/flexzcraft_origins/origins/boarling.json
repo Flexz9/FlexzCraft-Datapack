@@ -1,0 +1,18 @@
+{
+    "name":"Boarling",
+    "description":"This tough-skinned race relies on their strength alone to get by in life.",
+    "powers":[
+		"flexzcraft_origins:delicious",
+		"flexzcraft_origins:gluttonous",
+		"flexzcraft_origins:hog_sounds",
+		"flexzcraft_origins:hog_wild",
+		"flexzcraft_origins:hoofed",
+		"flexzcraft_origins:overweight",
+		"flexzcraft_origins:strong",
+		"flexzcraft_origins:tough"
+	],
+    "icon": {
+        "item": "minecraft:porkchop"
+    },
+	"impact":2
+}

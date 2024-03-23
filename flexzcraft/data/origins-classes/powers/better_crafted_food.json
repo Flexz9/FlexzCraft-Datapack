@@ -1,0 +1,4 @@
+{
+  "type": "origins_classes:modify_crafted_food",
+  "modify_food_power": "origins-classes:better_crafted_food_modifier"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Time To Rest",
+    "description": "You can not heal naturally while you're sprinting.",
+    "condition": {
+        "type": "origins:sprinting"
+    },
+    "type": "origins:disable_regen"
+}

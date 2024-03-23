@@ -1,0 +1,11 @@
+{
+	"description":"Your lack of fingers prevents you from using shields and projectile weapons.",
+	"name":"Cloven Hands",
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"tag":"origins-plus-plus:unwieldy"
+		}
+	}
+}

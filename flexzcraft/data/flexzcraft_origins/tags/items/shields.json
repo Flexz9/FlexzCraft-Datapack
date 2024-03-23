@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shield",
+    "blue_skies:moonstone_shield",
+    "blue_skies:spike_shield",
+    "twilightforest:knightmetal_shield"
+  ]
+}

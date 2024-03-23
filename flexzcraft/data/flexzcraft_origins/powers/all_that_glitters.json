@@ -1,0 +1,175 @@
+{
+  "name": "All That Glitters",
+  "description": "Golden tools deal extra damage and golden armor has additional protection. Golden equipment lasts much longer, but non golden and non netherite equipment breaks faster. Netherite armor gives a small speed boost.",
+  "type": "origins:multiple",
+  "golden_tool_boost": {
+	"type": "origins:modify_damage_dealt",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "mainhand",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:golden_tools"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "operation": "addition",
+	  "value": 2.5
+	}
+  },
+  "golden_helmet_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "head",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:golden_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.armor",
+	  "operation": "addition",
+	  "value": 1
+	}
+  },
+  "golden_chestplate_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "chest",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:golden_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.armor",
+	  "operation": "addition",
+	  "value": 2
+	}
+  },
+  "golden_leggings_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "legs",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:golden_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.armor",
+	  "operation": "addition",
+	  "value": 2
+	}
+  },
+  "golden_boots_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "feet",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:golden_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.armor",
+	  "operation": "addition",
+	  "value": 1
+	}
+  },
+  "netherite_helmet_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "head",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:netherite_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.movement_speed",
+	  "operation": "multiply_total",
+	  "value": 0.0375
+	}
+  },
+  "netherite_chestplate_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "chest",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:netherite_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.movement_speed",
+	  "operation": "multiply_total",
+	  "value": 0.0375
+	}
+  },
+  "netherite_leggings_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "legs",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:netherite_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.movement_speed",
+	  "operation": "multiply_total",
+	  "value": 0.0375
+	}
+  },
+  "netherite_boots_boost": {
+	"type": "origins:conditioned_attribute",
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "feet",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "flexzcraft_origins:netherite_armor"
+		}
+	  }
+	},
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "minecraft:generic.movement_speed",
+	  "operation": "multiply_total",
+	  "value": 0.0375
+	}
+  }
+}

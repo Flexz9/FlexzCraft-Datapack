@@ -1,0 +1,17 @@
+{
+    "name": "Dragonborn",
+    "description": "You can fly like a dragon. If only you had all the abilities of one.",
+    "powers": [
+        "flexzcraft_origins:carnivore",
+        "flexzcraft_origins:elytra",
+        "flexzcraft_origins:natural_armor",
+        "flexzcraft_origins:more_exhaustion",
+        "flexzcraft_origins:no_shield",
+        "flexzcraft_origins:claustrophobia",
+        "flexzcraft_origins:the_small_boss"
+    ],
+    "icon": {
+        "item": "minecraft:dragon_head"
+    },
+    "impact": 1
+}

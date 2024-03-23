@@ -1,0 +1,18 @@
+{
+	"name": "Feline",
+	"description": "With their cat-like appearance, the Feline scare creepers away. With the dexterity of cats, they always land safely on their feet.",
+	"powers": [
+		"flexzcraft_origins:fall_immunity",
+		"flexzcraft_origins:sprint_jump",
+		"flexzcraft_origins:velvet_paws",
+		"flexzcraft_origins:nine_lives",
+		"flexzcraft_origins:weak_arms",
+		"flexzcraft_origins:scare_creepers",
+		"flexzcraft_origins:cat_vision"
+	],
+	"icon": {
+		"item": "minecraft:orange_wool"
+	},
+	"order": 0,
+	"impact": 2
+}

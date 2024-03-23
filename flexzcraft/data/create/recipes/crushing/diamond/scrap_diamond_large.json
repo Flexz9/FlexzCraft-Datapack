@@ -1,0 +1,11 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "create:scrap_diamond_large"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+  ]
+}

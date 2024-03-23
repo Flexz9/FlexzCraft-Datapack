@@ -1,0 +1,21 @@
+{
+	"name": "Axolotl",
+	"description": "You are an Axolotl that prays to the Golden Space Gods.",
+	"powers": [
+		"flexzcraft_origins:more_kinetic_damage",
+		"flexzcraft_origins:a_reminder",
+		"flexzcraft_origins:adapted_oceaner",
+		"flexzcraft_origins:dried_kelp",
+		"flexzcraft_origins:fire",
+		"flexzcraft_origins:heart_hurts",
+		"flexzcraft_origins:parasitic_nature",
+		"flexzcraft_origins:poison_gills",
+		"flexzcraft_origins:runaway",
+		"flexzcraft_origins:swim_speed",
+		"flexzcraft_origins:traitor"
+	],
+	"icon": {
+		"item": "minecraft:kelp"
+	},
+	"impact": 3
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins_classes:action_on_tame",
+  "bientity_action": {
+    "type": "apoli:target_action",
+    "action": {
+      "type": "apoli:grant_power",
+      "power": "origins-classes:entities/tamed_attributes",
+      "source": "origins-classes:beastmaster"
+    }
+  }
+}

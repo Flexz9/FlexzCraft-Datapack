@@ -1,0 +1,23 @@
+{
+  "name": "Crossbow Master",
+  "description": "You deal 75% more damage with crossbows.",
+  "type": "origins:modify_projectile_damage",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "flexzcraft_origins:crossbows"
+        }
+      }
+    }
+  },
+  "modifier": {
+    "name": "Origin modifier",
+    "operation": "multiply_base",
+    "value": 0.75
+  }
+}

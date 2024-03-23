@@ -1,0 +1,20 @@
+{
+	"description":"Applies the poison effect on your opponent for a short period of time after hitting them.",
+	"name":"Poison Gills",
+	"type":"origins:target_action_on_hit",
+	"entity_action":{
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:poison",
+			"duration":50
+		}
+	},
+	"cooldown":100,
+	"hud_render":{
+		"bar_index":8
+	},
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"player"
+	}
+}

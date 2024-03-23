@@ -1,0 +1,16 @@
+{
+    "name": "Skeleton",
+    "description": "You're great with bows and crossbows, but it comes at a cost.",
+    "powers": [
+        "flexzcraft_origins:marksman",
+        "flexzcraft_origins:untrained",
+        "flexzcraft_origins:inexperienced",
+        "flexzcraft_origins:resourceful",
+        "flexzcraft_origins:quiver",
+        "flexzcraft_origins:no_projectile_divergence"
+    ],
+    "icon": {
+        "item": "minecraft:bow"
+    },
+    "impact": 2
+}

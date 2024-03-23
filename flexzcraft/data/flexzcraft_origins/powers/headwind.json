@@ -1,0 +1,11 @@
+{
+  "name": "Headwind",
+  "description": "You are a little bit slower on foot than others.",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "name": "Headwind speed bonus",
+    "operation": "multiply_base",
+    "value": -0.2
+  }
+}

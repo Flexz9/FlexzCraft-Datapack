@@ -1,0 +1,16 @@
+{
+    "name": "Mage",
+    "description": "You're a mage who can always find the magic in things.",
+    "powers": [
+        "flexzcraft_origins:fastcure",
+        "flexzcraft_origins:untrained",
+        "flexzcraft_origins:fireball",
+        "flexzcraft_origins:water_walk",
+        "flexzcraft_origins:unwieldly"
+    ],
+    "icon": {
+        "item": "minecraft:enchanted_book"
+    },
+    "impact": 2,
+	"unchoosable": true
+}

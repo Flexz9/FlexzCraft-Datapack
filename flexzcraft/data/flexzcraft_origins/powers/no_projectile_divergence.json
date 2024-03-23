@@ -1,0 +1,10 @@
+{
+  "name": "Accuracy",
+  "description": "All of your projectiles have increased accuracy.",
+  "type": "origins_classes:modify_projectile_divergence",
+  "modifier": {
+    "name": "Archer No Projectile Divergence",
+    "value": -1,
+    "operation": "multiply_total"
+  }
+}

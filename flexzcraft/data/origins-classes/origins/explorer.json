@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:explorer_kit",
+    "origins-classes:no_sprint_exhaustion",
+    "origins-classes:tailwind"
+  ],
+  "icon": "minecraft:compass",
+  "order": 9,
+  "impact": 0,
+	"unchoosable": true
+}

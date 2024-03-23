@@ -1,0 +1,19 @@
+{
+    "name": "Pillager",
+    "description": "You're sneaky, and fast. Always ready to steal from those you dislike.",
+    "powers": [
+        "flexzcraft_origins:speedy",
+        "flexzcraft_origins:stealthy",
+        "flexzcraft_origins:no_shield",
+        "flexzcraft_origins:better_unnoticed",
+        "flexzcraft_origins:uneasy_alliance",
+        "flexzcraft_origins:thefty",
+        "flexzcraft_origins:stealthy_damage",
+        "flexzcraft_origins:stealthy_invis",
+        "flexzcraft_origins:weak"
+    ],
+    "icon": {
+        "item": "minecraft:iron_axe"
+    },
+    "impact": 3
+}

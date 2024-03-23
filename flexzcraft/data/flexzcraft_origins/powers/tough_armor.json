@@ -1,0 +1,10 @@
+{
+  "name": "Sturdy Skin",
+  "description": "Even without wearing armor, your skin provides natural toughness.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor_toughness",
+    "value": 2,
+    "operation": "addition"
+  }
+}

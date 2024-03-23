@@ -1,0 +1,19 @@
+{
+	"name": "Phantom",
+	"description": "As half-human and half-phantom beings, these creatures can switch between a Phantom and a normal form.",
+	"powers": [
+		"flexzcraft_origins:phantomize",
+		"flexzcraft_origins:translucent",
+		"flexzcraft_origins:phasing",
+		"flexzcraft_origins:invisibility",
+		"flexzcraft_origins:burn_in_daylight",
+		"flexzcraft_origins:hunger_over_time",
+		"flexzcraft_origins:fragile",
+		"flexzcraft_origins:phantomize_overlay"
+	],
+	"icon": {
+		"item": "minecraft:phantom_membrane"
+	},
+	"order": 2,
+	"impact": 3
+}

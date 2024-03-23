@@ -1,0 +1,11 @@
+{
+  "name": "Fragile",
+  "description": "You have 3 less hearts of health than humans.",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "name": "Fragile health reduction",
+    "operation": "addition",
+    "value": -6.0
+  }
+}

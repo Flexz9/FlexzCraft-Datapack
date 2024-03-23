@@ -1,0 +1,6 @@
+{
+  "name": "Translucent",
+  "description": "Your skin is translucent.",
+  "type": "origins:model_color",
+  "alpha": 0.5
+}

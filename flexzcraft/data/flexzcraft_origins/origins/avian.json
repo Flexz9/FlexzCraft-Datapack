@@ -1,0 +1,17 @@
+{
+	"name": "Avian",
+	"description": "The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.",
+	"powers": [
+		"flexzcraft_origins:slow_falling",
+		"flexzcraft_origins:fresh_air",
+		"flexzcraft_origins:like_air",
+		"flexzcraft_origins:tailwind",
+		"flexzcraft_origins:lay_eggs",
+		"flexzcraft_origins:vegetarian"
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"order": 0,
+	"impact": 1
+}

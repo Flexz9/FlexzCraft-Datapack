@@ -1,0 +1,16 @@
+{
+	"name": "Arachnid",
+	"description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
+	"powers": [
+		"flexzcraft_origins:climbing",
+		"flexzcraft_origins:master_of_webs",
+		"flexzcraft_origins:carnivore",
+		"flexzcraft_origins:fragile",
+		"flexzcraft_origins:arthropod"
+	],
+	"icon": {
+		"item": "minecraft:cobweb"
+	},
+	"order": 1,
+	"impact": 1
+}

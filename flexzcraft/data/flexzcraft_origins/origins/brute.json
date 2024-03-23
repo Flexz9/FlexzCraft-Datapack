@@ -1,0 +1,18 @@
+{
+    "name": "Brute",
+    "description": "You're a heavy hitting machine with an arsenal of axes.",
+    "powers": [
+        "flexzcraft_origins:no_time_to_rest",
+        "flexzcraft_origins:no_shield",
+        "flexzcraft_origins:strong_arms",
+        "flexzcraft_origins:select_targets_strong",
+        "flexzcraft_origins:strong_arms_break_speed",
+        "flexzcraft_origins:natural_armor",
+        "flexzcraft_origins:select_targets_weak",
+        "flexzcraft_origins:light_armor"
+    ],
+    "icon": {
+        "item": "minecraft:iron_axe"
+    },
+    "impact": 3
+}

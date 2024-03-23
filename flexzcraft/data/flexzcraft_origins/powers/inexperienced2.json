@@ -1,0 +1,9 @@
+{
+    "name": "Inexperienced",
+    "description": "Due to never training with a weapon you always do less damage.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}

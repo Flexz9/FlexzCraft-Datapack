@@ -1,0 +1,11 @@
+{
+  "name": "Fins",
+  "description": "Your underwater speed is increased.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "additionalentityattributes:water_speed",
+    "name": "Additional swim speed",
+    "value": 0.5,
+    "operation": "multiply_base"
+  }
+}

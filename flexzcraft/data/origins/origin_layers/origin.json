@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "origins": [
+        "flexzcraft_origins:arachnid",
+        "flexzcraft_origins:avian",
+        "flexzcraft_origins:blazeborn",
+        "flexzcraft_origins:elytrian",
+        "flexzcraft_origins:enderian",
+        "flexzcraft_origins:feline",
+        "flexzcraft_origins:human",
+        "flexzcraft_origins:merling",
+        "flexzcraft_origins:phantom",
+        "flexzcraft_origins:shulk",
+        "flexzcraft_origins:skeleton",
+        "flexzcraft_origins:witch",
+        "flexzcraft_origins:bard",
+        "flexzcraft_origins:pillager",
+        "flexzcraft_origins:brute",
+        "flexzcraft_origins:dragonborn",
+        "flexzcraft_origins:warden",
+        "flexzcraft_origins:piglin",
+		"flexzcraft_origins:axolotl",
+        "flexzcraft_origins:boarling"
+    ],
+    "enabled": true
+}

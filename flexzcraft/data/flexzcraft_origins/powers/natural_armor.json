@@ -1,0 +1,10 @@
+{
+  "name": "natural Armor",
+  "description": "Even without wearing armor, your skin provides natural protection.",  
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "value": 6.0,
+    "operation": "addition"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Weak Arms",
+  "description": "When not under the effect of a strength potion, you mine natural stone very slow.",
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "name": "Unbreakable natural stone",
+    "value": -0.75,
+    "operation": "multiply_total"
+  },
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "origins:natural_stone"
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:strength",
+    "inverted": true
+  }
+}

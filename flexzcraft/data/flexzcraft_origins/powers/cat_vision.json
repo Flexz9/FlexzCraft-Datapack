@@ -1,0 +1,11 @@
+{
+  "name": "Nocturnal",
+  "description": "You can slightly see in the dark when not in water.",
+  "type": "apoli:night_vision",
+  "condition": {
+    "type": "apoli:submerged_in",
+    "fluid": "minecraft:water",
+    "inverted": true
+  },
+  "strength": 0.4
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/  ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "/": {
+            "tag": "disabled"
+        }
+    },
+    "result": {
+        "item": "storagedrawers:obsidian_storage_upgrade"
+    }
+}

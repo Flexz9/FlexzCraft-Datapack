@@ -1,0 +1,16 @@
+{
+	"name": "Elytrian",
+	"description": "Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.",
+	"powers": [
+		"flexzcraft_origins:elytra",
+		"flexzcraft_origins:launch_into_air",
+		"flexzcraft_origins:aerial_combatant",
+		"flexzcraft_origins:light_armor",
+		"flexzcraft_origins:claustrophobia"
+	],
+	"icon": {
+		"item": "minecraft:elytra"
+	},
+	"order": 3,
+	"impact": 1
+}

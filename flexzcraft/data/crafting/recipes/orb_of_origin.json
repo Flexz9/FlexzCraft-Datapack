@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "botania:mana_diamond"
+    },
+    "b": {
+      "item": "bloodmagic:infusedslate"
+    },
+    "c": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "d": {
+      "item": "minecraft:nether_star"
+    },
+    "e": {
+      "item": "deeperdarker:warden_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "bec",
+    "ada",
+    "cab"
+  ],
+  "result": {
+    "item": "origins:orb_of_origin"
+  }
+}

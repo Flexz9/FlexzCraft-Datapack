@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherrack",
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "chance": 0.05
+    },
+    {
+      "item": "create_things_and_misc:crushed_magma",
+      "chance": 0.25
+    },
+    {
+      "item": "create:scoria",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 450
+}
