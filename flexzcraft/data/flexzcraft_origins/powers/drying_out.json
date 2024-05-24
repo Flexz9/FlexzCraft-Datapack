@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "name": "Drying Out",
-    "description": "You will become dry after a long time without touching water. Dryness makes you vulnerable, and prevents other powers from working. You stay hydrated by entering water, drinking potions, or having fire resistance.",
+    "description": "You will become dry after a long time without touching water. Dryness makes you vulnerable, and prevents other powers from working. You stay hydrated by entering water or drinking potions.",
     "badge": {
         "type": "origins:tooltip",
         "sprite": "origins:textures/gui/badge/info.png",
@@ -39,17 +39,6 @@
                 {
                     "type": "origins:if_else_list",
                     "actions": [
-                        {
-                            "condition": {
-                                "type": "origins:status_effect",
-                                "effect": "minecraft:fire_resistance"
-                            },
-                            "action": {
-                                "type": "origins:change_resource",
-                                "resource": "*:*_time_left",
-                                "change": 0
-                            }
-                        },
                         {
                             "condition": {
                                 "type": "origins:dimension",

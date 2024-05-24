@@ -11,7 +11,7 @@
 	"modifier": {
 		"attribute": "minecraft:generic.movement_speed",
         "operation": "addition",
-        "value": 0.015,
+        "value": 0.010,
         "name": "Increased speed"
 	},
 	"tick_rate": 20
