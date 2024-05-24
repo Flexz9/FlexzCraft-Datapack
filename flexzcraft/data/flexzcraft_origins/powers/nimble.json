@@ -1,0 +1,18 @@
+{
+	"type":"origins:conditioned_attribute",
+	"name":"Nimble",
+	"description":"You are slightly faster on land. You lose this effect when dry.",
+	"condition": {
+		"type": "origins:resource",
+		"resource":"*:drying_out_is_dry",
+		"comparison": "==",
+		"compare_to": 0
+	},
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.015,
+        "name": "Increased speed"
+	},
+	"tick_rate": 20
+}

@@ -1,0 +1,17 @@
+{
+	"description":"You take extra damage from fire. Fire will cause you to dry out faster.",
+	"name":"Cold Blooded",
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:fire"
+	},
+	"modifier":{
+		"operation":"multiply_base",
+		"value":2
+	},
+	"self_action": {
+		"type": "origins:change_resource",
+		"resource": "*:drying_out_time_left",
+		"change": -8
+	}
+}

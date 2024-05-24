@@ -1,0 +1,24 @@
+{
+    "type": "origins:modify_food",
+    "name": "Taste of Home",
+    "description": "Glow berries and tropical fish are more satiating",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:glow_berries"
+            },
+            {
+                "item": "minecraft:tropical_fish"
+            }
+        ]
+    },
+    "food_modifier": {
+        "operation": "set_total",
+        "value": 7
+    },
+    "saturation_modifier": {
+        "operation": "set_total",
+        "value": 0.6
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "origins:modify_damage_taken",
+    "name": "Fish in a Bucket",
+    "description": "You take additional damage from tridents, and take extra damage from the impaling enchantment.",
+
+    "damage_condition" : {
+        "type": "origins:attacker",
+        "condition": "origins:or",
+        "conditions": [
+            {
+                "entity_condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "enchantment",
+                        "enchantment": "minecraft:impaling",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                }
+            },
+            {
+                "damage_condition": {
+                    "type": "origins:projectile",
+                    "projectile": "minecraft:trident"
+                }
+            }
+        ]
+    },
+    
+    "modifier": {
+        "name": "Fish in a Bucket",
+        "operation": "multiply_base",
+        "value": 2
+    }
+}

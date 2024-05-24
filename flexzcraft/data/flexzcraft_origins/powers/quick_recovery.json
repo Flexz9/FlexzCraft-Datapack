@@ -1,0 +1,33 @@
+{
+    "type": "origins:self_action_on_kill",
+    "name": "Quick Recovery",
+    "description": "After killing a hostile mob, you gain regeneration for a short time. You lose this effect when dry.",
+    "badge": {
+        "type": "origins:tooltip",
+        "sprite": "origins:textures/gui/badge/info.png",
+        "text": "This ability is affected by Drying Out."
+    },
+
+    "condition": {
+        "type": "origins:resource",
+		"resource":"*:drying_out_is_dry",
+		"comparison": "==",
+		"compare_to": 0
+    },
+
+    "target_condition": {
+        "type": "origins:in_tag",
+        "tag": "flexzcraft_origins:hostile_mobs"
+    },
+
+    "entity_action" : {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 100,
+            "is_ambient": false,
+            "show_particles": true,
+            "show_icon": true
+        }
+    }
+}
