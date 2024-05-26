@@ -9,7 +9,8 @@
 		"flexzcraft_origins:burn_in_daylight",
 		"flexzcraft_origins:hunger_over_time",
 		"flexzcraft_origins:fragile",
-		"flexzcraft_origins:phantomize_overlay"
+		"flexzcraft_origins:phantomize_overlay",
+		"flexzcraft_origins:passive_phantoms"
 	],
 	"icon": {
 		"item": "minecraft:phantom_membrane"
