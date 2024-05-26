@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_insomnia_ticks",
+    "name": "Dreamless Being",
+    "description": "You do not suffer the effects of insomnia.",
+
+    "modifier": {
+        "operation": "set_total",
+        "value": 0
+    }
+}
