@@ -1,0 +1,16 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "ingredients": [
+    {
+      "fluid": "create_enchantment_industry:ink",
+      "amount": 1000
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "result": {
+    "item": "minecraft:blackstone"
+  }
+}

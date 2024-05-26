@@ -1,0 +1,15 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:brimstone"
+  }
+}

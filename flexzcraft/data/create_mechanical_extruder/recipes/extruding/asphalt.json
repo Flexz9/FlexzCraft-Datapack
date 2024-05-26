@@ -1,0 +1,18 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "ingredients": [
+    {
+      "fluid": "createdieselgenerators:crude_oil",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:gravel"
+  },
+  "result": {
+    "item": "createdieselgenerators:asphalt_block"
+  }
+}
